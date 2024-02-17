@@ -19,9 +19,9 @@ int main() {
 
     for (int i = 0; i < 5; i++) {
         if (setA[i] > setB[i]) {
-            std::cout << "The index number " << i << " ,the setA " << setA[i] << " is Largest" << std::endl;
+            std::cout << "The index number " << i << ", the setA " << setA[i] << " is Largest" << std::endl;
         } else if (setA[i] < setB[i]) {
-            std::cout << "The index number " << i << " ,the setB " << setB[i] << " is Largest" << std::endl;
+            std::cout << "The index number " << i << ", the setB " << setB[i] << " is Largest" << std::endl;
         } else {
             std::cout << "Both are equal!" << std::endl;
         }
